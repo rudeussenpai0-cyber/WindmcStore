@@ -1,47 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>WindMC Store</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WindMC | Official Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="background-overlay"></div>
+    
+    <nav>
+        <div class="logo-text">WIND<span>MC</span></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Ranks</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+    </nav>
 
-  <!-- Header -->
-  <header>
-    <h1>WindMC Store</h1>
-    <p>Server IP: play.windmc.in</p>
-  </header>
+    <header>
+        <img src="https://cdn.discordapp.com/attachments/1456622085332795539/1459400947406077973/ChatGPT_Image_Dec_31_2025_05_06_02_PM.png?ex=6963248c&is=6961d30c&hm=f4da7b0d26121bd0a5290267ef7978e7c0912e5ac083dd39fae5b664a058a94a&" alt="WindMC Logo" class="main-logo">
+        <h1>Welcome to WindMC Store</h1>
+        <p>Elevate your gameplay with our exclusive ranks!</p>
+    </header>
 
-  <!-- Ranks Section -->
-  <section>
-    <h2>Buy Ranks</h2> 
+    <section class="rank-container">
+        <div class="rank-card vip">
+            <h2>VIP</h2>
+            <div class="price">$5.00</div>
+            <ul class="features">
+                <li>✨ Green Chat Tag</li>
+                <li>✈️ Fly in Lobby</li>
+                <li>💎 2x Coin Multiplier</li>
+            </ul>
+            <button class="buy-btn">Buy Now</button>
+        </div>
 
-  <div>
-    <h3>VIP</h3>
-    <p>Basic perks</p>
-    <button>Buy</button>
-    <button onclick="window.location.href='vip-form.html'">Buy VIP</button>
-  </div>
+        <div class="rank-card supreme">
+            <div class="popular-tag">BEST VALUE</div>
+            <h2>SUPREME</h2>
+            <div class="price">$15.00</div>
+            <ul class="features">
+                <li>⚡ Blue Glow Tag</li>
+                <li>🏰 All VIP Perks</li>
+                <li>🚀 Priority Queue</li>
+                <li>⚔️ Custom Kit access</li>
+            </ul>
+            <button class="buy-btn">Buy Now</button>
+        </div>
 
-  <div>
-    <h3>MEDIA</h3>
-    <p>Media perks</p>
-    <button>Buy</button>
-  </div>
-
-  <div>
-    <h3>SUPREME</h3>
-    <p>Supreme perks</p>
-    <button>Buy</button>
-  </div>
-</section>
-
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2026 WindMC. All rights reserved.</p>
-  </footer>
-
+        <div class="rank-card media">
+            <h2>MEDIA</h2>
+            <div class="price">Apply Now</div>
+            <ul class="features">
+                <li>🎥 Red Media Tag</li>
+                <li>📢 Server Broadcasts</li>
+                <li>🎁 Monthly Giveaway Box</li>
+            </ul>
+            <button class="buy-btn">Join Team</button>
+        </div>
+    </section>
 </body>
 </html>
