@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | WindMC</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-overlay"></div>
+
+    <div class="checkout-container">
+        <div class="checkout-box">
+            <h2>Complete Your Purchase</h2>
+            <p style="margin-bottom: 20px; color: #3498db;">WindMC Official Store</p>
+            
+            <form>
+                <div class="input-group">
+                    <label>Minecraft Username (IGN)</label>
+                    <input type="text" placeholder="e.g. Rudy_Pro" required 
+                           style="width: 100%; padding: 12px; border-radius: 10px; border: none; background: rgba(255,255,255,0.2); color: white; margin-top: 10px;">
+                </div>
+
+                <div class="payment-methods" style="margin-top: 20px; text-align: left;">
+                    <label>Select Payment Method</label>
+                    <div style="display: flex; gap: 10px; margin-top: 10px;">
+                        <div style="flex: 1; padding: 10px; border: 1px solid #f1c40f; border-radius: 10px; background: rgba(241,196,15,0.1); cursor: pointer; text-align: center;">💳 Card</div>
+                        <div style="flex: 1; padding: 10px; border: 1px solid rgba(255,255,255,0.2); border-radius: 10px; cursor: pointer; text-align: center;">📱 UPI / PayPal</div>
+                    </div>
+                </div>
+
+                <button type="submit" class="buy-btn" style="width: 100%; margin-top: 30px; background: #2ecc71;">Proceed to Pay</button>
+            </form>
+            
+            <a href="index.html" style="display: block; margin-top: 20px; color: #bdc3c7; text-decoration: none; font-size: 14px;">← Go Back</a>
+        </div>
+    </div>
+</body>
+</html>
